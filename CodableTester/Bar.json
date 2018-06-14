@@ -1,0 +1,55 @@
+{
+    "id":999,
+    "description":"Nullam accumsan massa ac felis",
+    "type":"some_type",
+    "nested_objects":[
+                      {
+                      "id":48,
+                      "foreign_key":2303,
+                      "boolean_value":false,
+                      "nested_dictionary":{
+                      "thing1":"Lorem ipsum dolor sit amet",
+                      "thing2":"consectetur adipiscing elit",
+                      "thing3":"Maecenas ornare aliquet urna vitae ultrices"},
+                      "more_nested_objects":[
+                                             {
+                                             "id":2332,
+                                             "type":"some_type",
+                                             "even_more_nested_objects":[
+                                                                         {
+                                                                         "id":323,
+                                                                         "foreign_key":34,
+                                                                         "array_of_ints":[
+                                                                                          45,
+                                                                                          55,
+                                                                                          65
+                                                                                          ]
+                                                                         },
+                                                                         {
+                                                                         "id":324,
+                                                                         "foreign_key":35,
+                                                                         "array_of_ints":[
+                                                                                          47
+                                                                                          ]
+                                                                         }
+                                                                         ]
+                                             }
+                                             ]
+                      }
+                      ],
+    "other_nested_objects":[
+                            {
+                            "id":88,
+                            "nested_dictionary":{
+                            "thing1":"Lorem ipsum dolor sit amet",
+                            "thing2":"consectetur adipiscing elit",
+                            "thing3":"Maecenas ornare aliquet urna vitae ultrices"
+                            },
+                            "foreign_key":45,
+                            "type":"sometype"
+                            }
+                            ],
+    "array_of_ints":[
+                     47
+                     ]
+}

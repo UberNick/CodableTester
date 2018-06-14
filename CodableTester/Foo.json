@@ -1,0 +1,13 @@
+{
+    "id": 100,
+    "integer": 5,
+    "type": "sometype",
+    "other_type": "DifferentType",
+    "boolean": true,
+    "optional_field": null,
+    "nested_dictionary": {
+        "thing1": "Lorem ipsum dolor sit amet",
+        "thing2": "consectetur adipiscing elit",
+        "thing3": "Maecenas ornare aliquet urna vitae ultrices"
+    }
+}

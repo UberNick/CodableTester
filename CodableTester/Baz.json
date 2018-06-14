@@ -1,0 +1,11 @@
+{
+    "id": 832023,
+    "foreign_key": 234231,
+    "integer": 7,
+    "boolean_value": true,
+    "nested_dictionary": {
+        "thing1": "Lorem ipsum dolor sit amet",
+        "thing2": "consectetur adipiscing elit",
+        "thing3": "Maecenas ornare aliquet urna vitae ultrices"
+    }
+}
